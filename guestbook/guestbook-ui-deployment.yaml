@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nagarjunacse02/gogs-operator
+      - image: docker/labs-k8s-toolkit-extension:0.0.46
       #- image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: guestbook-ui
         ports:
