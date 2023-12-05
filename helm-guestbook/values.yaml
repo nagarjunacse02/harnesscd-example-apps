@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: nagarjunacse02/gogs-operator
+  repository: docker/labs-k8s-toolkit-extension:0.0.46
   #repository: gcr.io/heptio-images/ks-guestbook-demo
   tag: 0.1
   pullPolicy: IfNotPresent
